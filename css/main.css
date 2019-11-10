@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(#e07c4e, #062647);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+body.map{
+    background: #fff;
+}
+@media screen and (max-width: 540px){
+    .container{
+        width: 90%;
+        margin: auto;
+        min-height: 100vh;
+    }
+    .w-100{
+        width: 100%;
+    }
+    .flex-r, .flex-c{
+        display: flex;
+    }
+    .flex-c{
+        flex-direction: column;
+    }
+    .justify-center{
+        justify-content: center;
+    }
+    .justify-between{
+        justify-content: space-between;
+    }
+    .align-center{
+        align-items: center;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .justify-start{
+        justify-content: flex-start;
+    }
+
+
+    .app-title h2{
+        color: #e07c4e;
+        letter-spacing: 0.1em;
+        padding: 10px 0;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 24px;
+    }
+    .app-cta p{
+        font-size: 20px;
+        letter-spacing: 0.08em;
+        color: #fff;
+    }
+    .app-cta a{
+        color: #e07c4e;
+        font-size: 20px;
+        letter-spacing: 0.08em;
+        border: 2px solid #e07c4e;
+        border-radius: 8px;
+        padding: 14px 24px;
+        margin: 0 10px;
+    }
+    .app-cta .sim-select{
+        margin-top: 24px;
+    }
+    header{
+        margin: 16px;
+    }
+    header h1, h2{
+        color: #472906; 
+        letter-spacing: 0.1em;
+        font-size: 22px;
+        margin-right: 5px;
+    }
+    header img{
+        height: 60px;
+    }
+    .container.map, .container.details{
+        width: 100%;
+        margin: 16px 0;
+    }
+    .container.map img{
+        height: 600px;
+        border-radius: 8px;
+    }
+    .form-container form{
+        padding: 12px;
+    }
+    .form-container form label{
+        font-size: 14px;
+        color: #444;
+    }
+    .form-container form input, textarea, .image-box{
+        border: none;
+        border: 1px solid #472906;
+        color: #062647;
+        padding: 12px;
+        margin-top: 4px;
+        margin-bottom: 16px;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+    .form-container form a{
+        background: #472906;
+        color: #fff;
+        font-size: 18px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border: none;
+        border-radius: 6px; 
+        font-weight: 600;
+        letter-spacing: 0.1em;
+    }
+    .form p{
+        font-size: 20px;
+    }
+    form .gps, .image-capture{
+        margin: 10px 0
+    }
+    #post-emergency{
+        margin-top: 10px;
+    }
+    .camera-button{
+        width: 50px;
+        height: 50px;
+        border:2px solid #472906;
+        border-radius: 8px;
+    }
+    .circle{
+        width: 40px;
+        height: 40px;
+        border: 2px solid #472906;
+        border-radius: 50%;
+    }
+    .circle-bold{
+        width: 25px;
+        height: 25px;
+        border: 2px solid #472906;
+        border-radius: 50%;
+    }
+}
